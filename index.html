@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Future Imperfect by HTML5 UP</title>
+		<title>Mary Ellen Doyle</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -106,8 +106,25 @@
 										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									<script type="text/javascript">
+var tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+
+
+document.getElementById('clockbox').innerHTML=""+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+										<a href="#" class="author"><span class="name">Mary Ellen Doyle</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
