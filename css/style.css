@@ -237,7 +237,7 @@ ul.navig li a.active{
 /*--Header-Ends--*/
 /*--banner-starts--*/
 .banner-top{
-	background:url(../images/Solution.jpg) no-repeat;
+	background:url(../images/solution.jpg) no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -246,6 +246,7 @@ ul.navig li a.active{
 	-ms-background-size:cover;
 	position:relative;
 }
+/*
 .banner-text {
 	position: absolute;
 	top: 42%;
@@ -293,6 +294,7 @@ ul.navig li a.active{
 	-o-transition: 0.5s all ease;
 	-ms-transition: 0.5s all ease;
 }
+*/
 /*--banner-end--*/
 /*--about-start--*/
 .about{
