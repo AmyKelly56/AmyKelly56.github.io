@@ -67,8 +67,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/black.jpeg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/mel.jpeg) no-repeat center center;
+    background-size: auto;
 }
 
 .intro-message {
