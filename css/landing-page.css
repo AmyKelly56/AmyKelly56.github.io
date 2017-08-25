@@ -57,6 +57,19 @@ h6 {
     display: block;
 }
 
+.self-pic {
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 2em;
+  background: url(../img/melcopy.jpeg) center center no-repeat;
+  background: url(../img/melcopy.jpeg) center center no-repeat;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -69,7 +82,7 @@ h6 {
     text-align: center;
 
     color: #f8f8f8;
-    background: url(../img/mel.jpeg) no-repeat center center;
+    background: url(../img/header.jpeg) no-repeat center center;
     background-size: auto;
 }
 
